@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class SleeplessNightsAnalyzer implements SleepAnalizer{
+public class SleeplessNightsAnalyzer implements SleepAnalizer {
     @Override
     public SleepAnalysisResult analizer(List<SleepingSession> session) {
         if (session.isEmpty()) {

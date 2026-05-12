@@ -3,7 +3,7 @@ package ru.yandex.practicum.sleeptracker;
 import java.time.LocalTime;
 import java.util.List;
 
-public class UserChronotypeAnalyzer implements SleepAnalizer{
+public class UserChronotypeAnalyzer implements SleepAnalizer {
 
     @Override
     public SleepAnalysisResult analizer(List<SleepingSession> session) {

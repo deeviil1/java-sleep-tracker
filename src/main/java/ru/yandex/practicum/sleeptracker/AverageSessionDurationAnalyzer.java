@@ -3,7 +3,7 @@ package ru.yandex.practicum.sleeptracker;
 import java.time.Duration;
 import java.util.List;
 
-public class AverageSessionDurationAnalyzer implements SleepAnalizer{
+public class AverageSessionDurationAnalyzer implements SleepAnalizer {
     @Override
     public SleepAnalysisResult analizer(List<SleepingSession> session) {
         // Если список пустой, возвращаем 0 минут

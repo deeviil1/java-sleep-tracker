@@ -2,7 +2,7 @@ package ru.yandex.practicum.sleeptracker;
 
 import java.util.List;
 
-public class BadQualitySessionsAnalyzer implements SleepAnalizer{
+public class BadQualitySessionsAnalyzer implements SleepAnalizer {
     @Override
     public SleepAnalysisResult analizer(List<SleepingSession> session) {
         // Считаем количество сессий с плохим качеством сна
