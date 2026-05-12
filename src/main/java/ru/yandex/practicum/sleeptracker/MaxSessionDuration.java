@@ -3,7 +3,7 @@ package ru.yandex.practicum.sleeptracker;
 import java.time.Duration;
 import java.util.List;
 
-public class MaxSessionDuration implements SleepAnalizer{
+public class MaxSessionDuration implements SleepAnalizer {
     @Override
     public SleepAnalysisResult analizer(List<SleepingSession> session) {
         if (session.isEmpty()) {
