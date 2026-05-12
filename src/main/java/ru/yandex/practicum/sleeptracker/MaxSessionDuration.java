@@ -14,7 +14,7 @@ public class MaxSessionDuration implements SleepAnalizer{
                 .max()
                 .orElse(0);
 
-        return new SleepAnalysisResult("Максимальная продолжительность сессии (минуты)", maxMinutes);
+        return new SleepAnalysisResult("Максимальная продолжительность сессии (минуты) ", maxMinutes);
     }
 
 }
