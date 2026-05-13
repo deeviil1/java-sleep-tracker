@@ -10,8 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BadQualitySessionsAnalizerTest {
 
-    private final BadQualitySessionsAnalyzer analyzer =
-            new BadQualitySessionsAnalyzer();
+    private final BadQualitySessionsAnalyzer analyzer = new BadQualitySessionsAnalyzer();
 
     @Test
     void shouldCountBadQualitySessions() {
