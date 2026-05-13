@@ -9,10 +9,11 @@ import java.util.List;
 
 public class SleepLog {
 
+      protected DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy HH:mm");
 
-        List<SleepingSession> read(String path) {
+      protected List<SleepingSession> read(String path) {
 
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy HH:mm");
+
 
             try {
                 return Files.lines(Path.of(path))
